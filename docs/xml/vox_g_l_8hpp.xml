@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="vox_g_l_8hpp" kind="file" language="C++">
+    <compoundname>voxGL.hpp</compoundname>
+    <includes local="no">GLFW/glfw3.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">regex</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">array</includes>
+    <includes local="no">glm/glm.hpp</includes>
+    <includes local="no">glm/gtc/matrix_transform.hpp</includes>
+    <includes local="no">glm/ext.hpp</includes>
+    <includes local="no">chrono</includes>
+    <includes refid="_time_8hpp" local="yes">Time.hpp</includes>
+    <includes refid="_window_8hpp" local="yes">Window.hpp</includes>
+    <includes refid="_shading_program_8hpp" local="yes">ShadingProgram.hpp</includes>
+    <includes refid="_voxel_chunk_8hpp" local="yes">VoxelChunk.hpp</includes>
+    <includes refid="_vox_object_8hpp" local="yes">VoxObject.hpp</includes>
+    <includes refid="_vox_renderer_8hpp" local="yes">VoxRenderer.hpp</includes>
+    <includes refid="_camera_8hpp" local="yes">Camera.hpp</includes>
+    <includedby refid="_camera_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Camera.cpp</includedby>
+    <includedby refid="_time_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Time.hpp</includedby>
+    <includedby refid="_window_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Window.hpp</includedby>
+    <includedby refid="_shading_program_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/ShadingProgram.hpp</includedby>
+    <includedby refid="_voxel_chunk_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/VoxelChunk.hpp</includedby>
+    <includedby refid="_vox_object_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/VoxObject.hpp</includedby>
+    <includedby refid="_vox_renderer_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/VoxRenderer.hpp</includedby>
+    <includedby refid="_camera_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Camera.hpp</includedby>
+    <includedby refid="main_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/main.cpp</includedby>
+    <includedby refid="_particles_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp</includedby>
+    <includedby refid="_shading_program_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/ShadingProgram.cpp</includedby>
+    <includedby refid="_time_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Time.cpp</includedby>
+    <includedby refid="_voxel_chunk_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/VoxelChunk.cpp</includedby>
+    <includedby refid="_vox_object_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/VoxObject.cpp</includedby>
+    <includedby refid="_vox_renderer_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/VoxRenderer.cpp</includedby>
+    <includedby refid="_window_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Window.cpp</includedby>
+    <incdepgraph>
+      <node id="304">
+        <label>VoxRenderer.hpp</label>
+        <link refid="_vox_renderer_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="285">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp</label>
+        <link refid="vox_g_l_8hpp"/>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>Window.hpp</label>
+        <link refid="_window_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>ShadingProgram.hpp</label>
+        <link refid="_shading_program_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>VoxObject.hpp</label>
+        <link refid="_vox_object_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>string</label>
+      </node>
+      <node id="302">
+        <label>VoxelChunk.hpp</label>
+        <link refid="_voxel_chunk_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="292">
+        <label>regex</label>
+      </node>
+      <node id="289">
+        <label>fstream</label>
+      </node>
+      <node id="299">
+        <label>Time.hpp</label>
+        <link refid="_time_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="291">
+        <label>vector</label>
+      </node>
+      <node id="297">
+        <label>glm/ext.hpp</label>
+      </node>
+      <node id="294">
+        <label>array</label>
+      </node>
+      <node id="288">
+        <label>sstream</label>
+      </node>
+      <node id="290">
+        <label>iostream</label>
+      </node>
+      <node id="296">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="298">
+        <label>chrono</label>
+      </node>
+      <node id="305">
+        <label>Camera.hpp</label>
+        <link refid="_camera_8hpp_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>algorithm</label>
+      </node>
+      <node id="295">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="312">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/VoxRenderer.hpp</label>
+        <link refid="_vox_renderer_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp</label>
+        <link refid="vox_g_l_8hpp"/>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Window.hpp</label>
+        <link refid="_window_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/ShadingProgram.hpp</label>
+        <link refid="_shading_program_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/VoxObject.hpp</label>
+        <link refid="_vox_object_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/VoxelChunk.hpp</label>
+        <link refid="_voxel_chunk_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Time.hpp</label>
+        <link refid="_time_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Camera.hpp</label>
+        <link refid="_camera_8hpp_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp</label>
+        <link refid="_particles_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vox_g_l_8hpp_1a7737bc5535f188b6f1ffffa9f9f4146c" prot="public" static="no">
+        <name>GLFW_INCLUDE_GLCOREARB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" line="4" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vox_g_l_8hpp_1a6a445f62f02793f2e8144b99e016cef9" prot="public" static="no">
+        <name>X_DIM</name>
+        <initializer>800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" line="28" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vox_g_l_8hpp_1a2cfec1e8b5f2afbb0211381d14376f22" prot="public" static="no">
+        <name>Y_DIM</name>
+        <initializer>600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" line="29" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vox_g_l_8hpp_1a47f2e62c0dbebc787052c165afcada0e" prot="public" static="no">
+        <name>NAME</name>
+        <initializer>&quot;Window Name&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" line="30" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vox_g_l_8hpp_1abefde77b05ad27438b2edca381307aa1" prot="public" static="no">
+        <name>VOXEL_VERTEX_SHADER_PATH</name>
+        <initializer>&quot;../voxGL/vertex.glsl&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" line="31" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vox_g_l_8hpp_1a6b6e40d97fd9927ba1b23536513310db" prot="public" static="no">
+        <name>VOXEL_FRAGMENT_SHADER_PATH</name>
+        <initializer>&quot;../voxGL/frag.glsl&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" line="32" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp"/>
+  </compounddef>
+</doxygen>

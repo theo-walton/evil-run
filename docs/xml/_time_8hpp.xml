@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_time_8hpp" kind="file" language="C++">
+    <compoundname>Time.hpp</compoundname>
+    <includes refid="vox_g_l_8hpp" local="yes">voxGL.hpp</includes>
+    <includedby refid="vox_g_l_8hpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp</includedby>
+    <incdepgraph>
+      <node id="221">
+        <label>VoxRenderer.hpp</label>
+        <link refid="_vox_renderer_8hpp_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>voxGL.hpp</label>
+        <link refid="vox_g_l_8hpp_source"/>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>Window.hpp</label>
+        <link refid="_window_8hpp_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>ShadingProgram.hpp</label>
+        <link refid="_shading_program_8hpp_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>VoxObject.hpp</label>
+        <link refid="_vox_object_8hpp_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>string</label>
+      </node>
+      <node id="219">
+        <label>VoxelChunk.hpp</label>
+        <link refid="_voxel_chunk_8hpp_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="210">
+        <label>regex</label>
+      </node>
+      <node id="207">
+        <label>fstream</label>
+      </node>
+      <node id="202">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Time.hpp</label>
+        <link refid="_time_8hpp"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>vector</label>
+      </node>
+      <node id="215">
+        <label>glm/ext.hpp</label>
+      </node>
+      <node id="212">
+        <label>array</label>
+      </node>
+      <node id="206">
+        <label>sstream</label>
+      </node>
+      <node id="208">
+        <label>iostream</label>
+      </node>
+      <node id="214">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="216">
+        <label>chrono</label>
+      </node>
+      <node id="222">
+        <label>Camera.hpp</label>
+        <link refid="_camera_8hpp_source"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>algorithm</label>
+      </node>
+      <node id="213">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="229">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/VoxRenderer.hpp</label>
+        <link refid="_vox_renderer_8hpp_source"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/voxGL.hpp</label>
+        <link refid="vox_g_l_8hpp_source"/>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Window.hpp</label>
+        <link refid="_window_8hpp_source"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/ShadingProgram.hpp</label>
+        <link refid="_shading_program_8hpp_source"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/VoxObject.hpp</label>
+        <link refid="_vox_object_8hpp_source"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/VoxelChunk.hpp</label>
+        <link refid="_voxel_chunk_8hpp_source"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Time.hpp</label>
+        <link refid="_time_8hpp"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Camera.hpp</label>
+        <link refid="_camera_8hpp_source"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp</label>
+        <link refid="_particles_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_time" prot="public">Time</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/nfs/2017/t/twalton/bomberman/github/src/Time.hpp"/>
+  </compounddef>
+</doxygen>

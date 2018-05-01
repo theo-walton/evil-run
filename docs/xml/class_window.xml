@@ -1,0 +1,714 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_window" kind="class" language="C++" prot="public">
+    <compoundname>Window</compoundname>
+    <includes refid="_window_8hpp" local="no">Window.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_window_1ad46f7d2b73772b479eaac49b267c2141" prot="private" static="no" mutable="no">
+        <type>GLFWwindow *</type>
+        <definition>GLFWwindow* Window::_window</definition>
+        <argsstring></argsstring>
+        <name>_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="20" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a36a5add1b9dfbd88f22d3af72cdc88af" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Window::_keyHeld[4096]</definition>
+        <argsstring>[4096]</argsstring>
+        <name>_keyHeld</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="22" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a19fff15c027f7d5306f9feb3f1d728d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Window::_forward</definition>
+        <argsstring></argsstring>
+        <name>_forward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="23" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a94fdfc12384c3860cad44066095f09f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Window::_backward</definition>
+        <argsstring></argsstring>
+        <name>_backward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="24" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1ad3309d6d12bc44381c6cff0ad7e19dc6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Window::_left</definition>
+        <argsstring></argsstring>
+        <name>_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="25" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a281502748a5b38a9b6dd3a6c2d8ebefb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Window::_right</definition>
+        <argsstring></argsstring>
+        <name>_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="26" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a468d2387318ef7888ab5fa79a2bf4e35" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Window::_up</definition>
+        <argsstring></argsstring>
+        <name>_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="27" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a2b8e34942bce7064de833f611c2855dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Window::_down</definition>
+        <argsstring></argsstring>
+        <name>_down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="28" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a3c81c4e2feed9800c095e62324f4ff07" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Window::_screenCornerX</definition>
+        <argsstring></argsstring>
+        <name>_screenCornerX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="30" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1a77a37413c4a315f2682c407786c8b9af" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Window::_screenCornerY</definition>
+        <argsstring></argsstring>
+        <name>_screenCornerY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="31" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1ae7ca9b1d1ec56524f85ff8d77e9c4b7d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Window::_width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="32" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_window_1aae0f0cebbf0fdfd3dfaa7c9c8c0ffdf7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Window::_height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="33" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_window_1afe26353e74c822958d627e191b8c07ab" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::KeyCallback</definition>
+        <argsstring>(GLFWwindow *, int, int, int, int)</argsstring>
+        <name>KeyCallback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <defname>glfwWindow</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>action</defname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="15" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="145" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1ac5f787045f78f41ab60b52516d10f0d4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::ErrorCallback</definition>
+        <argsstring>(int, const char *)</argsstring>
+        <name>ErrorCallback</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>description</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="16" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a995f8e596320da85da2f806d3e4af4b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::WindowResizeCallback</definition>
+        <argsstring>(GLFWwindow *, int, int)</argsstring>
+        <name>WindowResizeCallback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <defname>glfwWindow</defname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="17" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a394a878d1bfa30270b40efde81c5038c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::WindowMoveCallback</definition>
+        <argsstring>(GLFWwindow *, int, int)</argsstring>
+        <name>WindowMoveCallback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <defname>glfwWindow</defname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="18" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="133" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_window_1ab1802798ee89032e9241ba68c009e998" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Window::Window</definition>
+        <argsstring>(void)</argsstring>
+        <name>Window</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="35" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a0caf16510676c0617ffb9b90a5ea86fb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::WindowHints</definition>
+        <argsstring>(void)</argsstring>
+        <name>WindowHints</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="37" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a65c5e3032211d495b96c07331b5bcb08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::RefreshStencil</definition>
+        <argsstring>(void)</argsstring>
+        <name>RefreshStencil</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="38" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="121" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_window_1a6b3ea0885dd32e88889babf2e1e6f545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Window::Window</definition>
+        <argsstring>(int x, int y, std::string name)</argsstring>
+        <name>Window</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Create a new window with x width and y height the window title is set to name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="42" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="6" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a6683953277836eaba1faabf42b472923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::GetSize</definition>
+        <argsstring>(float &amp;width, float &amp;height)</argsstring>
+        <name>GetSize</name>
+        <param>
+          <type>float &amp;</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Gets the size of the application window. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function gets the size of the application window regardless of the current stencil. Fills arguments with the result. For the size of the currently drawable area (with respect to the current stencil), see GetDrawableSize. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="50" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="45" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1aff03499546a7eb2c0739d086239077ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsOpen</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsOpen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns true if the window is open, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="53" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a2972f7e4bf969054d3e061d301fed0e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::SetStencil</definition>
+        <argsstring>(float x, float y, float width, float height)</argsstring>
+        <name>SetStencil</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Set a rendering stencil. </para>        </briefdescription>
+        <detaileddescription>
+<para>Specify the area of the window you wish to draw to. (x, y) is the coordinate of the bottom left part of the rectangle you wish to draw to. Width and height define the rectangle that will be drawable with its lower left corner at that point. Implemented with glStencil. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="61" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="70" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a318de003f8058355725a5e43ff51ebd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::ClearStencil</definition>
+        <argsstring>(void)</argsstring>
+        <name>ClearStencil</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Removes render stencil. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="64" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="93" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1adaca2d8810475e4a6573330c44b3b861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::GetDrawableSize</definition>
+        <argsstring>(float &amp;width, float &amp;height)</argsstring>
+        <name>GetDrawableSize</name>
+        <param>
+          <type>float &amp;</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Get the current drawable area, value depends on the current stencil. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="67" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a00bf03ecbe737b7418b17b3efdd4b0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::Clear</definition>
+        <argsstring>(void)</argsstring>
+        <name>Clear</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Clears render zone with the current glClearColor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="70" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a6b53aa6e504ee06aaf15fbc4d628b57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::Render</definition>
+        <argsstring>(void)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Renders entire window, call once per frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="73" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a30df2ba348179071083d470be12934a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::EventListen</definition>
+        <argsstring>(void)</argsstring>
+        <name>EventListen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="75" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a54db4f81512ff3f0a179e3e1b55f19aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool &amp;</type>
+        <definition>bool &amp; Window::KeyOn</definition>
+        <argsstring>(int)</argsstring>
+        <name>KeyOn</name>
+        <param>
+          <type>int</type>
+          <defname>key</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="76" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a56656dca721746ec21be4bddfac8938d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::ForwardAndBackKeys</definition>
+        <argsstring>(int forward, int back)</argsstring>
+        <name>ForwardAndBackKeys</name>
+        <param>
+          <type>int</type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>back</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="78" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1aca5e724725b188f42058c2210ac0784b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::LeftAndRightKeys</definition>
+        <argsstring>(int left, int right)</argsstring>
+        <name>LeftAndRightKeys</name>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="79" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a67d9c5857c860a3b7a04b40176bb492e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Window::UpAndDownKeys</definition>
+        <argsstring>(int up, int down)</argsstring>
+        <name>UpAndDownKeys</name>
+        <param>
+          <type>int</type>
+          <declname>up</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="80" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="182" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a0eb0a9322d06ed32fe7ddf2173da745b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsForward</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsForward</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="82" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="188" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a07f0404e83492a86e564f73a01d6fc85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsBackward</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsBackward</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="83" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1aa65b910c5066b14daabe1c97114a5b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsLeft</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsLeft</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="84" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1af8a06ebf7ece65310e44d2e317055bae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsRight</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsRight</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="85" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="209" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1a752a1f518c1c8baefa785621941c5dec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsUp</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsUp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="86" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="216" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_window_1ad930ebd1e4f3eb1d2f06a3f7577f8f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Window::IsDown</definition>
+        <argsstring>(void)</argsstring>
+        <name>IsDown</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="87" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.cpp" bodystart="223" bodyend="228"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Application window. </para>    </briefdescription>
+    <detaileddescription>
+<para>Currently windows represent an application window and the ability to specify a subsection that application window for rendering. All coordinates are in normalized device coordinates. </para>    </detaileddescription>
+    <location file="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" line="14" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Window.hpp" bodystart="13" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_window_1a94fdfc12384c3860cad44066095f09f8" prot="private" virt="non-virtual"><scope>Window</scope><name>_backward</name></member>
+      <member refid="class_window_1a2b8e34942bce7064de833f611c2855dd" prot="private" virt="non-virtual"><scope>Window</scope><name>_down</name></member>
+      <member refid="class_window_1a19fff15c027f7d5306f9feb3f1d728d4" prot="private" virt="non-virtual"><scope>Window</scope><name>_forward</name></member>
+      <member refid="class_window_1aae0f0cebbf0fdfd3dfaa7c9c8c0ffdf7" prot="private" virt="non-virtual"><scope>Window</scope><name>_height</name></member>
+      <member refid="class_window_1a36a5add1b9dfbd88f22d3af72cdc88af" prot="private" virt="non-virtual"><scope>Window</scope><name>_keyHeld</name></member>
+      <member refid="class_window_1ad3309d6d12bc44381c6cff0ad7e19dc6" prot="private" virt="non-virtual"><scope>Window</scope><name>_left</name></member>
+      <member refid="class_window_1a281502748a5b38a9b6dd3a6c2d8ebefb" prot="private" virt="non-virtual"><scope>Window</scope><name>_right</name></member>
+      <member refid="class_window_1a3c81c4e2feed9800c095e62324f4ff07" prot="private" virt="non-virtual"><scope>Window</scope><name>_screenCornerX</name></member>
+      <member refid="class_window_1a77a37413c4a315f2682c407786c8b9af" prot="private" virt="non-virtual"><scope>Window</scope><name>_screenCornerY</name></member>
+      <member refid="class_window_1a468d2387318ef7888ab5fa79a2bf4e35" prot="private" virt="non-virtual"><scope>Window</scope><name>_up</name></member>
+      <member refid="class_window_1ae7ca9b1d1ec56524f85ff8d77e9c4b7d" prot="private" virt="non-virtual"><scope>Window</scope><name>_width</name></member>
+      <member refid="class_window_1ad46f7d2b73772b479eaac49b267c2141" prot="private" virt="non-virtual"><scope>Window</scope><name>_window</name></member>
+      <member refid="class_window_1a00bf03ecbe737b7418b17b3efdd4b0f3" prot="public" virt="non-virtual"><scope>Window</scope><name>Clear</name></member>
+      <member refid="class_window_1a318de003f8058355725a5e43ff51ebd8" prot="public" virt="non-virtual"><scope>Window</scope><name>ClearStencil</name></member>
+      <member refid="class_window_1ac5f787045f78f41ab60b52516d10f0d4" prot="private" virt="non-virtual"><scope>Window</scope><name>ErrorCallback</name></member>
+      <member refid="class_window_1a30df2ba348179071083d470be12934a6" prot="public" virt="non-virtual"><scope>Window</scope><name>EventListen</name></member>
+      <member refid="class_window_1a56656dca721746ec21be4bddfac8938d" prot="public" virt="non-virtual"><scope>Window</scope><name>ForwardAndBackKeys</name></member>
+      <member refid="class_window_1adaca2d8810475e4a6573330c44b3b861" prot="public" virt="non-virtual"><scope>Window</scope><name>GetDrawableSize</name></member>
+      <member refid="class_window_1a6683953277836eaba1faabf42b472923" prot="public" virt="non-virtual"><scope>Window</scope><name>GetSize</name></member>
+      <member refid="class_window_1a07f0404e83492a86e564f73a01d6fc85" prot="public" virt="non-virtual"><scope>Window</scope><name>IsBackward</name></member>
+      <member refid="class_window_1ad930ebd1e4f3eb1d2f06a3f7577f8f78" prot="public" virt="non-virtual"><scope>Window</scope><name>IsDown</name></member>
+      <member refid="class_window_1a0eb0a9322d06ed32fe7ddf2173da745b" prot="public" virt="non-virtual"><scope>Window</scope><name>IsForward</name></member>
+      <member refid="class_window_1aa65b910c5066b14daabe1c97114a5b22" prot="public" virt="non-virtual"><scope>Window</scope><name>IsLeft</name></member>
+      <member refid="class_window_1aff03499546a7eb2c0739d086239077ea" prot="public" virt="non-virtual"><scope>Window</scope><name>IsOpen</name></member>
+      <member refid="class_window_1af8a06ebf7ece65310e44d2e317055bae" prot="public" virt="non-virtual"><scope>Window</scope><name>IsRight</name></member>
+      <member refid="class_window_1a752a1f518c1c8baefa785621941c5dec" prot="public" virt="non-virtual"><scope>Window</scope><name>IsUp</name></member>
+      <member refid="class_window_1afe26353e74c822958d627e191b8c07ab" prot="private" virt="non-virtual"><scope>Window</scope><name>KeyCallback</name></member>
+      <member refid="class_window_1a54db4f81512ff3f0a179e3e1b55f19aa" prot="public" virt="non-virtual"><scope>Window</scope><name>KeyOn</name></member>
+      <member refid="class_window_1aca5e724725b188f42058c2210ac0784b" prot="public" virt="non-virtual"><scope>Window</scope><name>LeftAndRightKeys</name></member>
+      <member refid="class_window_1a65c5e3032211d495b96c07331b5bcb08" prot="private" virt="non-virtual"><scope>Window</scope><name>RefreshStencil</name></member>
+      <member refid="class_window_1a6b53aa6e504ee06aaf15fbc4d628b57a" prot="public" virt="non-virtual"><scope>Window</scope><name>Render</name></member>
+      <member refid="class_window_1a2972f7e4bf969054d3e061d301fed0e1" prot="public" virt="non-virtual"><scope>Window</scope><name>SetStencil</name></member>
+      <member refid="class_window_1a67d9c5857c860a3b7a04b40176bb492e" prot="public" virt="non-virtual"><scope>Window</scope><name>UpAndDownKeys</name></member>
+      <member refid="class_window_1ab1802798ee89032e9241ba68c009e998" prot="private" virt="non-virtual"><scope>Window</scope><name>Window</name></member>
+      <member refid="class_window_1a6b3ea0885dd32e88889babf2e1e6f545" prot="public" virt="non-virtual"><scope>Window</scope><name>Window</name></member>
+      <member refid="class_window_1a0caf16510676c0617ffb9b90a5ea86fb" prot="private" virt="non-virtual"><scope>Window</scope><name>WindowHints</name></member>
+      <member refid="class_window_1a394a878d1bfa30270b40efde81c5038c" prot="private" virt="non-virtual"><scope>Window</scope><name>WindowMoveCallback</name></member>
+      <member refid="class_window_1a995f8e596320da85da2f806d3e4af4b9" prot="private" virt="non-virtual"><scope>Window</scope><name>WindowResizeCallback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

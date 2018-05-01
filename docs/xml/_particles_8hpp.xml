@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_particles_8hpp" kind="file" language="C++">
+    <compoundname>Particles.hpp</compoundname>
+    <includes refid="vox_g_l_8hpp" local="yes">voxGL.hpp</includes>
+    <includes local="no">numeric</includes>
+    <includedby refid="_particles_8cpp" local="yes">/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp</includedby>
+    <incdepgraph>
+      <node id="122">
+        <label>VoxRenderer.hpp</label>
+        <link refid="_vox_renderer_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>voxGL.hpp</label>
+        <link refid="vox_g_l_8hpp_source"/>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>Window.hpp</label>
+        <link refid="_window_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>ShadingProgram.hpp</label>
+        <link refid="_shading_program_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>numeric</label>
+      </node>
+      <node id="121">
+        <label>VoxObject.hpp</label>
+        <link refid="_vox_object_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>string</label>
+      </node>
+      <node id="120">
+        <label>VoxelChunk.hpp</label>
+        <link refid="_voxel_chunk_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="110">
+        <label>regex</label>
+      </node>
+      <node id="107">
+        <label>fstream</label>
+      </node>
+      <node id="117">
+        <label>Time.hpp</label>
+        <link refid="_time_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>vector</label>
+      </node>
+      <node id="115">
+        <label>glm/ext.hpp</label>
+      </node>
+      <node id="112">
+        <label>array</label>
+      </node>
+      <node id="106">
+        <label>sstream</label>
+      </node>
+      <node id="108">
+        <label>iostream</label>
+      </node>
+      <node id="114">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="116">
+        <label>chrono</label>
+      </node>
+      <node id="123">
+        <label>Camera.hpp</label>
+        <link refid="_camera_8hpp_source"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>algorithm</label>
+      </node>
+      <node id="102">
+        <label>/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp</label>
+        <link refid="_particles_8hpp"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_particles" prot="public">Particles</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_particles_8hpp_1a81acb058069e4ea2fcd580fdd7bef2db" prot="public" static="no">
+        <name>PARTICLE_VERTEX_SHADER_PATH</name>
+        <initializer>&quot;src/particleVertex.glsl&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="7" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_particles_8hpp_1aab78a391ac0c1d733f40585e4290ae28" prot="public" static="no">
+        <name>PARTICLE_FRAGMENT_SHADER_PATH</name>
+        <initializer>&quot;src/particleFrag.glsl&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="8" column="9" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp"/>
+  </compounddef>
+</doxygen>

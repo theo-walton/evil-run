@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_particles" kind="class" language="C++" prot="public">
+    <compoundname>Particles</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_particles_1acfc95fbe5e9c2745f2cac876e6ffa54c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_shading_program" kindref="compound">ShadingProgram</ref> *</type>
+        <definition>ShadingProgram* Particles::_program</definition>
+        <argsstring></argsstring>
+        <name>_program</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="15" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a0a917112b9a106f84aeefbce32726a5f" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Particles::_lookAtID</definition>
+        <argsstring></argsstring>
+        <name>_lookAtID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="17" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1ab12a3d06adabc0f61e7a3fd882594bef" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Particles::_viewID</definition>
+        <argsstring></argsstring>
+        <name>_viewID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="18" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1abf02af06c11b9084adfe8be20fc3e8f0" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Particles::_transformID</definition>
+        <argsstring></argsstring>
+        <name>_transformID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="19" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1ae90cdb90208aac33fcbc5c2e867ab31f" prot="private" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Particles::_lookAt</definition>
+        <argsstring></argsstring>
+        <name>_lookAt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="21" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1ab5385117aae81576ae565bcd783efe3b" prot="private" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Particles::_view</definition>
+        <argsstring></argsstring>
+        <name>_view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="22" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a2cb01666795beda0bd422e21bf231906" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Particles::_amount</definition>
+        <argsstring></argsstring>
+        <name>_amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="24" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a04c41aa958a3e7b6a229a906fe0c7e2b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; Particles::_vertices</definition>
+        <argsstring></argsstring>
+        <name>_vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="26" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a565bd6a6ec710e48c256926e25965f20" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; Particles::_positionArray</definition>
+        <argsstring></argsstring>
+        <name>_positionArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="27" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a8054acdb82f3f890d17aa498ac80997b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; Particles::_colorArray</definition>
+        <argsstring></argsstring>
+        <name>_colorArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="28" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a7cd6a4aa6b9f52ede67e9f1d7ee2c692" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; Particles::_indices</definition>
+        <argsstring></argsstring>
+        <name>_indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="29" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1ab4416d25678fb5e60232b0c6fc4b40dc" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Particles::_baseShapeID</definition>
+        <argsstring></argsstring>
+        <name>_baseShapeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="31" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a22b662f5ded5e94d39165c01c1ce9651" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Particles::_particlePositionsID</definition>
+        <argsstring></argsstring>
+        <name>_particlePositionsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="32" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_particles_1a5ce4105769c267f54b4f5fdd02042fa7" prot="private" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Particles::_particleColorsID</definition>
+        <argsstring></argsstring>
+        <name>_particleColorsID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="33" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_particles_1a7659162fbbc6442a522d4743faa897f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Particles::Particles</definition>
+        <argsstring>(int amount)</argsstring>
+        <name>Particles</name>
+        <param>
+          <type>int</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="38" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="4" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1a33f4f049a202eb1f854b22b126bd2355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Particles::UseExplicitPerspective</definition>
+        <argsstring>(std::pair&lt; glm::mat4, glm::mat4 &gt; pair)</argsstring>
+        <name>UseExplicitPerspective</name>
+        <param>
+          <type>std::pair&lt; glm::mat4, glm::mat4 &gt;</type>
+          <declname>pair</declname>
+        </param>
+        <briefdescription>
+<para>Use the explicit perspective provided by camera. </para>        </briefdescription>
+        <detaileddescription>
+<para>An &apos;Explicit Perspective&apos; is an std::pair&lt;glm::mat4, glm::mat4&gt; where the first element represents the lookAt matrix, and the second element represents the projection matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="45" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="47" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1ab942c1d67d6868d2254f2407792649db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Particles::SetTransform</definition>
+        <argsstring>(glm::mat4 m)</argsstring>
+        <name>SetTransform</name>
+        <param>
+          <type>glm::mat4</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Set the transform matrix to be applied to the particles. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="48" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1af86654babc9a26b508954328f4a08994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt; &amp;</type>
+        <definition>std::vector&lt; float &gt; &amp; Particles::GetPhysicalAttributes</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetPhysicalAttributes</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns a vector of size 4N floats - where N is the number of particles. </para>        </briefdescription>
+        <detaileddescription>
+<para>Each set of 4 floats is to be interpreted as a set of physical attributes that corrispond to a single particle. The first 3 floats corrispond to (x, y, z) position, and the 4th float corrisponds to the particle size. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="56" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1a05bce961ecb20e4c5142fb95976d8d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt; &amp;</type>
+        <definition>std::vector&lt; float &gt; &amp; Particles::GetColorAttributes</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetColorAttributes</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns a vector of size 4N floats. </para>        </briefdescription>
+        <detaileddescription>
+<para>each set of 4 floats corrisponds to an RGBA color of a single particle. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="62" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1a612184eb90bd12a7f08053436e334b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; size_t &gt; &amp;</type>
+        <definition>std::vector&lt; size_t &gt; &amp; Particles::GetAttributeIndices</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetAttributeIndices</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns a vector of size N indices. </para>        </briefdescription>
+        <detaileddescription>
+<para>Initially this contains indices [0 ... N-1], however when the <ref refid="class_particles_1a5ce4f1078bbd15c80dc12338a8b874a8" kindref="member">Sort()</ref> method is called, the particle positions in the arrays will change. The Indices array will also change so you can still refer to the same particle via its attribute index. Example: if a particle is in <ref refid="class_particles_1af86654babc9a26b508954328f4a08994" kindref="member">GetPhysicalAttributes()</ref>[3], then <ref refid="class_particles_1a612184eb90bd12a7f08053436e334b07" kindref="member">GetAttributeIndices()</ref>[3] will return its original index before any sorting took place. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="72" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1a5ce4f1078bbd15c80dc12338a8b874a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Particles::Sort</definition>
+        <argsstring>(void)</argsstring>
+        <name>Sort</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Sorts the particles based on Z values. </para>        </briefdescription>
+        <detaileddescription>
+<para>This should only be used if there are noticable artifacts with transparent particles, since the operation is expensive and will force you to use <ref refid="class_particles_1a612184eb90bd12a7f08053436e334b07" kindref="member">GetAttributeIndices()</ref> if you want to store additional particle infomation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="80" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="88" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1a27b5bc06440299bf4c127f62d6cd6aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Particles::Update</definition>
+        <argsstring>(void)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Saves the current physical and color attributes onto the GPU, ready for rendering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="83" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="127" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_particles_1a420764600a07c2162089980a1c7bca4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Particles::Render</definition>
+        <argsstring>(void)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Renders the particles. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="86" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.cpp" bodystart="152" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" line="11" column="1" bodyfile="/nfs/2017/t/twalton/bomberman/github/src/Particles.hpp" bodystart="10" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_particles_1a2cb01666795beda0bd422e21bf231906" prot="private" virt="non-virtual"><scope>Particles</scope><name>_amount</name></member>
+      <member refid="class_particles_1ab4416d25678fb5e60232b0c6fc4b40dc" prot="private" virt="non-virtual"><scope>Particles</scope><name>_baseShapeID</name></member>
+      <member refid="class_particles_1a8054acdb82f3f890d17aa498ac80997b" prot="private" virt="non-virtual"><scope>Particles</scope><name>_colorArray</name></member>
+      <member refid="class_particles_1a7cd6a4aa6b9f52ede67e9f1d7ee2c692" prot="private" virt="non-virtual"><scope>Particles</scope><name>_indices</name></member>
+      <member refid="class_particles_1ae90cdb90208aac33fcbc5c2e867ab31f" prot="private" virt="non-virtual"><scope>Particles</scope><name>_lookAt</name></member>
+      <member refid="class_particles_1a0a917112b9a106f84aeefbce32726a5f" prot="private" virt="non-virtual"><scope>Particles</scope><name>_lookAtID</name></member>
+      <member refid="class_particles_1a5ce4105769c267f54b4f5fdd02042fa7" prot="private" virt="non-virtual"><scope>Particles</scope><name>_particleColorsID</name></member>
+      <member refid="class_particles_1a22b662f5ded5e94d39165c01c1ce9651" prot="private" virt="non-virtual"><scope>Particles</scope><name>_particlePositionsID</name></member>
+      <member refid="class_particles_1a565bd6a6ec710e48c256926e25965f20" prot="private" virt="non-virtual"><scope>Particles</scope><name>_positionArray</name></member>
+      <member refid="class_particles_1acfc95fbe5e9c2745f2cac876e6ffa54c" prot="private" virt="non-virtual"><scope>Particles</scope><name>_program</name></member>
+      <member refid="class_particles_1abf02af06c11b9084adfe8be20fc3e8f0" prot="private" virt="non-virtual"><scope>Particles</scope><name>_transformID</name></member>
+      <member refid="class_particles_1a04c41aa958a3e7b6a229a906fe0c7e2b" prot="private" virt="non-virtual"><scope>Particles</scope><name>_vertices</name></member>
+      <member refid="class_particles_1ab5385117aae81576ae565bcd783efe3b" prot="private" virt="non-virtual"><scope>Particles</scope><name>_view</name></member>
+      <member refid="class_particles_1ab12a3d06adabc0f61e7a3fd882594bef" prot="private" virt="non-virtual"><scope>Particles</scope><name>_viewID</name></member>
+      <member refid="class_particles_1a612184eb90bd12a7f08053436e334b07" prot="public" virt="non-virtual"><scope>Particles</scope><name>GetAttributeIndices</name></member>
+      <member refid="class_particles_1a05bce961ecb20e4c5142fb95976d8d99" prot="public" virt="non-virtual"><scope>Particles</scope><name>GetColorAttributes</name></member>
+      <member refid="class_particles_1af86654babc9a26b508954328f4a08994" prot="public" virt="non-virtual"><scope>Particles</scope><name>GetPhysicalAttributes</name></member>
+      <member refid="class_particles_1a7659162fbbc6442a522d4743faa897f4" prot="public" virt="non-virtual"><scope>Particles</scope><name>Particles</name></member>
+      <member refid="class_particles_1a420764600a07c2162089980a1c7bca4f" prot="public" virt="non-virtual"><scope>Particles</scope><name>Render</name></member>
+      <member refid="class_particles_1ab942c1d67d6868d2254f2407792649db" prot="public" virt="non-virtual"><scope>Particles</scope><name>SetTransform</name></member>
+      <member refid="class_particles_1a5ce4f1078bbd15c80dc12338a8b874a8" prot="public" virt="non-virtual"><scope>Particles</scope><name>Sort</name></member>
+      <member refid="class_particles_1a27b5bc06440299bf4c127f62d6cd6aca" prot="public" virt="non-virtual"><scope>Particles</scope><name>Update</name></member>
+      <member refid="class_particles_1a33f4f049a202eb1f854b22b126bd2355" prot="public" virt="non-virtual"><scope>Particles</scope><name>UseExplicitPerspective</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

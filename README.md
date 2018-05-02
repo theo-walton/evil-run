@@ -8,3 +8,6 @@ how to run game:
 2 Make
 
 3 ./42run
+
+
+![alt text](https://raw.githubusercontent.com/theo-walton/evil-run/master/demo.gif)
